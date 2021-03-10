@@ -1,0 +1,520 @@
+body {
+    background: url(background-image.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: auto;
+    padding: 0;
+    font-family: gesta,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    display: block;
+}
+
+html {
+    margin: auto;
+}
+
+.main {
+    max-width: 980px;
+    margin: auto;
+}
+
+h1, h2 {
+    font-family: farmhand,serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+p {
+    color: white;
+    font-size: 15.5px;
+    letter-spacing: 1px;
+    line-height: 21px;
+}
+
+/* NAVIGATION SECTION */
+
+header {
+    position: fixed;
+    max-width: 980px;
+    margin: 0;
+}
+
+header .container {
+    /* margin: auto; */
+    text-align: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.89);
+    color: white;
+    position: fixed;
+    z-index: 1;
+    list-style-type: none;
+}
+
+.top-nav {
+    background-color: rgba(0, 0, 0, 0);
+    overflow: hidden;
+}
+
+.top-nav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 25px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.top-nav a:hover {
+    background-color: blanchedalmond;
+    color: black;
+}
+
+.nav-max-width {
+    max-width: 980px;
+    margin: auto;
+}
+
+
+.button {
+    width: 150px;
+    height: 30px;
+    background: black;
+    border: thin white;
+    text-align: center;
+    padding: 15px 5px 5px;
+    margin: 5px 5px 0 0;
+    border: 1px soild rgb(150,150,150);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    background: linear-gradient(#969696, #c8c8c8);
+}
+
+#logo {
+    width: 200px;
+    height: 60px;
+    float: left;
+    padding-top: 5px;
+}
+
+.container1 img {
+    border-radius: ;
+}
+
+/*NAV ICON*/
+.nav-icon {
+padding: 20px 16px;
+float: right;
+}
+
+.nav-icon div {
+    width: 35px;
+    height: 3px;
+    background: wheat;
+    margin: 5px 0;
+}
+
+.top-nav .nav-icon {
+    margin-top: 7px;
+    padding-top: 14px;
+}
+
+.nav-icon {
+    display: none;
+}
+
+/*-Hero Section----------------------------*/
+
+.hero {
+    width: 100%;
+    height: auto;
+    margin-bottom: 55px;
+}
+
+.hero img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.herobutton {
+    border: solid wheat;
+    border-width: 2px;
+}
+
+.hero p {
+    margin-bottom: 25px;
+}
+
+.container1 {
+    height: auto;
+    padding-top: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows:auto;
+    grid-gap: 20px;
+}
+
+.herocontent {
+    margin-top: 75px;
+}
+
+
+/*-Fancy Hero Section---------------------*/
+
+.FancyVectors {
+    width: 100%;
+    height: auto;
+    margin-bottom: 55px;
+}
+
+.Vectors {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows:auto;
+    grid-gap: 40px;
+}
+
+.Vectors img {
+    width: 100%;
+    height: auto;
+}
+
+/*-Features Section------------------------*/
+
+.features {
+    background: rgba(0, 0, 0, 0.644);
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 55px;
+}
+
+.features h2 {
+    padding-top: 30px;
+    text-align: center;
+}
+ 
+.aside-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows:auto;
+    grid-gap: 26px;
+}
+
+.features-1 {
+    grid-column: 1/2;
+}
+
+.features-2 {
+    grid-column: 2/3;
+}
+
+.features-3 {
+    grid-column: 3/4;
+}
+
+.aside-section {
+    margin: 0 35px;
+}
+
+.aside-section img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 2px;
+}
+
+.features h4, h3 {
+    color: white;
+}
+
+.features h3 {
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.features h4 {
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 30px;
+    color: white
+}
+
+/*-Organize Section------------------------*/
+
+.organize {
+    width: 100%;
+    height: auto;
+    margin-bottom: 55px;
+}
+
+.organize p {
+    width: 95%;
+    text-align: left;
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows:auto;
+    grid-gap: 20px;
+}
+
+.container2 img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+
+/*-Large Vector Section------------------------*/
+
+.large-vector-main {
+    width: 100%;
+    height: auto;
+    margin-bottom: 55px;
+}
+
+.large-vector-main {
+    margin-top: 55px;
+}
+
+.large-vector-main img {
+    width: 100%;
+    height: auto;
+}
+
+/*-Share Section------------------------*/
+
+.share {
+    width: 100%;
+    height: auto;
+    margin-bottom: 55px;
+}
+
+.share {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows:auto;
+    grid-gap: 20px;
+
+    background: rgba(0, 0, 0, 0.603);
+    margin: 0 auto;
+    padding: 5px 0;
+    margin: 55px auto 30px;
+    border-radius: 20px;
+}
+
+.sharecontent {
+   margin: 0 30px 0 30px ;
+}
+
+.sharecontent p {
+    text-align: left;
+}
+
+.share img {
+    border-radius: 10px;
+}
+
+.image-container {
+    width: 100%;
+    height: auto;
+}
+
+.share img {
+    width: 93%;
+    height: auto;
+    margin-top: 5px;
+}
+
+/*-Get Section------------------------*/
+
+.get {
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 55px;
+    height: auto;
+}
+
+.get h2 {
+    text-align: center;
+}
+
+.call-action {
+    border: solid wheat;
+    border-width: 2px;
+    margin: 20px auto 10px;
+}
+
+.call-action {
+    color: white;
+    text-transform: uppercase;
+}
+
+.container p {
+    margin-bottom: 33px;
+}
+
+/*-Footer------------------------*/
+
+footer {
+    width: 100%;
+    height: auto;
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+footer p {
+    font-size: 10px;
+    line-height: 14px;
+    text-align: center;
+}
+
+.footer-menu {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-left: 28%;
+}
+
+.footer-menu a {
+    width: 100%;
+    height: auto;
+    text-decoration: none;
+    margin: 0 20px;
+    color: white;
+}
+
+
+/*----------------------------------*/
+/*-MEDIA QUERIES--------------------*/
+/*----------------------------------*/
+
+
+
+@media screen and (max-width:950px) {
+
+    /*--Navigation Section----------*/
+    .top-nav {
+        display: none;
+    }
+    .nav-icon {
+        display: block;
+    }
+    
+    /*--Hero Section----------------*/
+    .container1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows:auto;
+        grid-gap: 20px;
+    }
+    .herocontent{
+        margin-top: 30px;
+    }
+    .herocontent h1, p {
+        text-align: center;
+        width: 80%;
+        margin: auto;
+    }
+    .herobutton {
+        margin: auto;
+
+    }
+    /*--Fancy Vector Section--------*/
+    .Vectors {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows:auto;
+        grid-gap: 40px;
+    }
+    .Vectors img {
+        grid-column: 1/2;
+    }
+
+    /*--Features Section------------*/
+    .aside-section {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows:auto;
+        grid-gap: 26px;
+    }
+    .features-1, .features-2, .features-3 {
+        grid-column: 1/2;
+    }
+
+    /*--Organize Section------------*/
+    .container2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows:auto;
+        grid-gap: 20px;
+    }
+    .organizecontent h2 {
+        text-align: center;
+    }
+    .organizecontent p {
+        text-align: center;
+        margin: auto;
+    }
+    
+    /*--Share Section---------------*/
+    .share {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows:auto;
+        grid-gap: 20px;
+    }
+    .share h2 {
+        text-align: center;
+    }
+    .share p {
+        text-align: center;
+    }
+    .image-container {
+        margin: auto;
+    }
+    .image-container img {
+        margin-left: 18px ;
+    }
+
+    /*--Get Section-----------------*/
+    footer  p {
+        width: 95%;
+        margin: auto;
+    }
+    
+    .footer-menu {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-left: 1%;
+}
+
+    
+    
+
+
+
+}
